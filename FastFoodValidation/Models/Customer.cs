@@ -21,7 +21,6 @@ namespace FastFoodValidation.Models
         public bool IsDiabetic { get; set; }
         public bool IsPorkFree { get; set; }
         public bool IsGlutenFree { get; set; }
-        public List<Order> OrderList { get; set; }
         public enum Restrictions
         {
             Vegetarian = 1,
